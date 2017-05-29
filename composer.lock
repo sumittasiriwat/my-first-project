@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "23c9163ca361572a76ec2da6777d5d19",
+    "packages": [
+        {
+            "name": "clozed2u/hello-composer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clozed2u/hello-composer.git",
+                "reference": "9dfef0f1bdcb212a55ebe75dab7d1ebaf537e054"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clozed2u/hello-composer/zipball/9dfef0f1bdcb212a55ebe75dab7d1ebaf537e054",
+                "reference": "9dfef0f1bdcb212a55ebe75dab7d1ebaf537e054",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hello\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lattapon Yodsuwan",
+                    "email": "i@clozed2u.com"
+                }
+            ],
+            "description": "Sample composer package",
+            "keywords": [
+                "hello"
+            ],
+            "time": "2015-12-15T16:46:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

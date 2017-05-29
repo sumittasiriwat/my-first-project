@@ -1,0 +1,5 @@
+{
+    "require": {
+        "clozed2u/hello-composer": "^1.0"
+    }
+}
